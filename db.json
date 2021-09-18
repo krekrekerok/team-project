@@ -1,3 +1,12 @@
 {
-    "products": []
+  "pets": [
+    {
+      "title": "собака",
+      "description": "дрессированная",
+      "price": 2000,
+      "photo": "https://petsi.net/images/dogbreed/pomeranian.jpg",
+      "breed": "шпиц",
+      "id": 1
+    }
+  ]
 }

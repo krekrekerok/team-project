@@ -17,7 +17,7 @@ const Routes = () => {
                 <Switch>
                     <Route exact path = "/" component = {MainPage}/>
                     <Route exact path = "/admin" component = {AdminPage}/>
-                    <Route exact path = "/edit" component = {EditPage}/>
+                    <Route exact path = "/edit/:id" component = {EditPage}/>
                     <Route exact path = "/signin" component = {SignInPage}/>
                     <Route exact path = "/signup" component = {SignUpPage}/>
                     <Route exact path = "/catalog" component = {CatalogPage}/>
